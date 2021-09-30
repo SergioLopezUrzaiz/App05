@@ -22,6 +22,10 @@
 		FB97717727022B5400161F45 /* Media.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB97717627022B5400161F45 /* Media.swift */; };
 		FB9771792702368600161F45 /* MediaRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9771782702368600161F45 /* MediaRowView.swift */; };
 		FB97717B270239D900161F45 /* MediaDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB97717A270239D900161F45 /* MediaDetailView.swift */; };
+		FB97717D270609B600161F45 /* RateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB97717C270609B600161F45 /* RateView.swift */; };
+		FB97717F2706279400161F45 /* TrailersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB97717E2706279400161F45 /* TrailersView.swift */; };
+		FB9771812706297000161F45 /* Trailer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9771802706297000161F45 /* Trailer.swift */; };
+		FB97718327062D4100161F45 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB97718227062D4100161F45 /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +43,10 @@
 		FB97717627022B5400161F45 /* Media.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Media.swift; sourceTree = "<group>"; };
 		FB9771782702368600161F45 /* MediaRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaRowView.swift; sourceTree = "<group>"; };
 		FB97717A270239D900161F45 /* MediaDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaDetailView.swift; sourceTree = "<group>"; };
+		FB97717C270609B600161F45 /* RateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateView.swift; sourceTree = "<group>"; };
+		FB97717E2706279400161F45 /* TrailersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailersView.swift; sourceTree = "<group>"; };
+		FB9771802706297000161F45 /* Trailer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trailer.swift; sourceTree = "<group>"; };
+		FB97718227062D4100161F45 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +87,10 @@
 				FB9771552702144300161F45 /* TMDBView.swift */,
 				FB9771722702294E00161F45 /* MoviesView.swift */,
 				FB9771782702368600161F45 /* MediaRowView.swift */,
+				FB97717C270609B600161F45 /* RateView.swift */,
 				FB97717A270239D900161F45 /* MediaDetailView.swift */,
+				FB97718227062D4100161F45 /* WebView.swift */,
+				FB97717E2706279400161F45 /* TrailersView.swift */,
 				FB9771742702295C00161F45 /* SeriesView.swift */,
 				FB9771572702144400161F45 /* Assets.xcassets */,
 				FB97715C2702144400161F45 /* Info.plist */,
@@ -103,6 +114,7 @@
 				FB97716C270216B300161F45 /* Genre.swift */,
 				FB97716E2702189600161F45 /* MediaModel.swift */,
 				FB97717627022B5400161F45 /* Media.swift */,
+				FB9771802706297000161F45 /* Trailer.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -188,14 +200,18 @@
 			files = (
 				FB97716F2702189600161F45 /* MediaModel.swift in Sources */,
 				FB9771732702294E00161F45 /* MoviesView.swift in Sources */,
+				FB9771812706297000161F45 /* Trailer.swift in Sources */,
 				FB97716D270216B300161F45 /* Genre.swift in Sources */,
+				FB97717D270609B600161F45 /* RateView.swift in Sources */,
 				FB9771562702144300161F45 /* TMDBView.swift in Sources */,
 				FB9771542702144300161F45 /* App05_TMDBApp.swift in Sources */,
+				FB97717F2706279400161F45 /* TrailersView.swift in Sources */,
 				FB97717127021A2100161F45 /* TMDBLogin.swift in Sources */,
 				FB97717727022B5400161F45 /* Media.swift in Sources */,
 				FB9771792702368600161F45 /* MediaRowView.swift in Sources */,
 				FB97717B270239D900161F45 /* MediaDetailView.swift in Sources */,
 				FB9771752702295C00161F45 /* SeriesView.swift in Sources */,
+				FB97718327062D4100161F45 /* WebView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

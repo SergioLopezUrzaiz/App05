@@ -23,7 +23,7 @@ struct TMDBView: View {
                         Label("Series", systemImage: "tv.fill")
                     }
             }
-            .navigationBarTitle("Generos", displayMode: .inline)
+            .navigationBarTitle("CineTec", displayMode: .inline)
         }
     }
 }

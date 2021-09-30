@@ -13,16 +13,19 @@ struct MoviesView: View {
     @StateObject var mediaModel: MediaModel
     
     var body: some View {
-        ScrollView(.horizontal, showsIndicators: false) {
-            HStack {
-                ForEach(mediaModel.moviesNowPlaying) { movie in
-                    NavigationLink(destination: MediaDetailView(media: movie)) {
-                        MediaRowView(media: movie)
+        GeometryReader { geo in
+            ScrollView(.horizontal, showsIndicators: false) {
+                HStack {
+                    ForEach(mediaModel.moviesNowPlaying) { movie in
+                        NavigationLink(destination: MediaDetailView(media: movie, mediaModel: mediaModel)) {
+                            MediaRowView(media: movie, width: geo.size.width)
+                        }
                     }
                 }
+                .navigationBarTitle("Movies", displayMode: .inline)
             }
-            .navigationBarTitle("Movies", displayMode: .inline)
         }
+     
     }
 }
 
